@@ -36,8 +36,8 @@ class Test{
         int mymoney = 300;//あなたの所持金額
         int pttudnprice = 250;//ポテトうどんの値段
         boolean isOK = (mymoney >= pttudnprice);
-        System.out.println("所持金額："+mymoney);
-        System.out.println("ポテトうどんの価格："+pttudnprice);
+        System.out.println("所持金額:"+mymoney);
+        System.out.println("ポテトうどんの価格:"+pttudnprice);
 
         if (isOK){//isOKに対する条件文
             System.out.println("私はポテトうどんを買うことができます！");
