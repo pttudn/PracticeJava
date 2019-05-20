@@ -1,4 +1,5 @@
 public class Test{
+    //とりあえずstaticを使ってしまっていた。バグは発生していないが、扱いに注意
     public static void main(String[] args){
         
         view("ポテトうどん",1); //別のメソッドの呼び出し
