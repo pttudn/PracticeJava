@@ -13,6 +13,9 @@ public class PracticeJava4{
         Book book = comic;//子⇒親：キャスト不要
         book.output();
         Comic castComic = (Comic)book;//親⇒子：キャスト必要
+
+        System.out.println("comic = -Book-?:"+(comic instanceof Book));//instanceofを使って型を判別
+        System.out.println("comic = -Comic-?:"+(comic instanceof Comic));
     }
 } 
 
